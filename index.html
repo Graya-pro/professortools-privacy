@@ -32,6 +32,26 @@
             border-bottom: 2px solid #e8e4de;
         }
 
+        .lang-switch {
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .lang-switch a {
+            color: #4a6fa5;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+
+        .lang-switch span {
+            color: #9a9490;
+            margin: 0 0.4rem;
+        }
+
         h1 {
             font-family: 'Source Serif 4', serif;
             font-weight: 600;
@@ -96,9 +116,14 @@
 <body>
     <div class="container">
         <header>
+            <div class="lang-switch">
+                <strong>EN</strong>
+                <span>|</span>
+                <a href="politique-confidentialite.html">FR</a>
+            </div>
             <h1>Privacy Policy</h1>
             <div class="app-name">The Teacher's Satchel — Android Application</div>
-            <div class="last-updated">Last updated: February 15, 2026</div>
+            <div class="last-updated">Last updated: March 8, 2026</div>
         </header>
 
         <h2>Introduction</h2>
@@ -119,7 +144,7 @@
         </p>
         <ul>
             <li>Your preferences and settings</li>
-            <li>Files and content you create within the App</li>
+            <li>Files and content you create within the App (classes, students, groups)</li>
         </ul>
         <p>
             This data remains on your device. It is neither transmitted to a remote
@@ -139,12 +164,22 @@
             <li>Available memory and disk space at the time of the crash</li>
             <li>Stack trace of the error</li>
             <li>App version</li>
+            <li>A <strong>Firebase installation ID</strong>: a pseudo-anonymous identifier
+                generated per device and per app installation, used solely to deduplicate
+                crash reports. This identifier is not linked to any personally identifiable
+                information.</li>
         </ul>
         <p>
             This data is transmitted to Firebase (Google) and is used exclusively
             to improve the App's stability. It does not contain any personally
             identifiable information (name, email, location, etc.) and is not
             cross-referenced with other services.
+        </p>
+        <p>
+            <strong>Legal basis (GDPR):</strong> this processing is based on our legitimate
+            interest in maintaining the technical stability and reliability of the App
+            (Article 6(1)(f) of the GDPR). Crash data is not used for any commercial,
+            advertising, or profiling purpose.
         </p>
         <p>
             To learn more about how Firebase processes data, please refer to the
@@ -158,7 +193,7 @@
             <li>Personal identification data (name, email address, phone number)</li>
             <li>Location data</li>
             <li>Contacts, photos, or files stored on your device</li>
-            <li>Usage data for advertising purposes</li>
+            <li>Usage or behavioural data for analytics or advertising purposes</li>
             <li>Payment or financial data</li>
         </ul>
 
@@ -172,6 +207,27 @@
 
         <h2>Advertising</h2>
         <p>The App does not contain any advertising.</p>
+
+        <h2>Your rights (GDPR)</h2>
+        <p>
+            If you are located in the European Union, you have the following rights regarding
+            your personal data:
+        </p>
+        <ul>
+            <li><strong>Right of access:</strong> you can request information about the data
+                processed about you.</li>
+            <li><strong>Right to erasure:</strong> you can request the deletion of data
+                associated with your device (e.g. crash reports linked to your installation ID).</li>
+            <li><strong>Right to object:</strong> you can object to the processing of your data
+                based on legitimate interest.</li>
+            <li><strong>Right to lodge a complaint:</strong> you have the right to contact your
+                national data protection authority (in France: <a href="https://www.cnil.fr"
+                target="_blank" rel="noopener">CNIL</a>).</li>
+        </ul>
+        <p>
+            To exercise any of these rights, please contact us at:
+            <a href="mailto:contact@graya.fr">contact@graya.fr</a>
+        </p>
 
         <h2>Target audience</h2>
         <p>
